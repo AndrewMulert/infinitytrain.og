@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap");
 /* display */
 /* mixins */
 /* tags */
 h1, h2, h3, a {
-  font-family: Raleway, Calibri, sans-serif;
+  font-family: Reddit Sans, Calibri, sans-serif;
 }
 
 p, pre, label {
-  font-family: Outfit, Arial, serif;
+  font-family: Reddit Sans, Arial, serif;
 }
 
 article {
@@ -178,9 +178,13 @@ nav svg {
 
 .nav_bar {
   display: flex;
+  border-bottom: 10px;
+  border-color: #37BF43;
 }
 .nav_items {
   list-style-type: none;
+  border-bottom: 5px;
+  border-color: #37BF43;
   margin: 0;
   padding-left: 0px;
   overflow: hidden;
@@ -202,7 +206,7 @@ nav svg {
 .page_link {
   display: none;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 19px;
   display: block;
   min-width: 200px;
   font-weight: 400;

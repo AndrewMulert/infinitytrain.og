@@ -116,28 +116,9 @@
         }
 
         &_countdown {
-            position: absolute;
-            top: 60%;
-            margin-top: auto;
-            margin-left: auto;
-            margin-right: auto;
-            left: 0;
-            right: 0;
             min-width: 325px;
-            width: 60%;
-            max-width: 550px;
-            border-radius: 25px;
+            width: 100%;
             margin-bottom: 20px;
-            box-shadow: 10px 10px 50px $secondary-font-color;
-
-            &:hover{
-              width: 100%;
-              max-width: 630px;
-              height: 100%;
-              max-height: 230px;
-              z-index: 2;
-              background-color: $transparent-lighter-tertiary-color;
-          }
         }
       }
     
@@ -237,11 +218,11 @@
   
       @keyframes logoGlow {
         0% {
-          @include box-style-animated($secondary-color, $secondary-color, $pixel-0, $pixel-0);
+          @include box-style-animated($lighter-secondary-color, $secondary-color, $pixel-0, $pixel-0);
         }
 
         30% {
-            @include box-style-animated($secondary-color, $secondary-color, $pixel-0, $pixel-60);
+            @include box-style-animated($lighter-secondary-color, $secondary-color, $pixel-0, $pixel-60);
         }
   
         60% {
