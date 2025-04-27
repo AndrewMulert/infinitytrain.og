@@ -218,11 +218,11 @@
   
       @keyframes logoGlow {
         0% {
-          @include box-style-animated($lighter-secondary-color, $secondary-color, $pixel-0, $pixel-0);
+          @include box-style-animated($lighter-secondary-color, $lighter-secondary-color, $pixel-0, $pixel-0);
         }
 
         30% {
-            @include box-style-animated($lighter-secondary-color, $secondary-color, $pixel-0, $pixel-60);
+            @include box-style-animated($lighter-secondary-color, $lighter-secondary-color, $pixel-0, $pixel-60);
         }
   
         60% {
