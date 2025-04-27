@@ -6,12 +6,12 @@ $medium-primary-color: #27856F;
 $monotone-primary-color: #515e5b;
 $darker-primary-color: #164A3E;
 $darkest-primary-color: #0D2D25;
-$lighter-secondary-color: #7ede87;
+$lighter-secondary-color: #AAF0B0;
 $secondary-color: #37BF43;
 $transparent-lighter-secondary-color: #1e6724be;
 $medium-secondary-color: #1e6724;
 $darker-secondary-color: #164A1A;
-$darkest-secondary-color: #0D2D10;
+$darkest-secondary-color: #171B18;
 $transparent-secondary-color: #164A1Abe;
 $transparent-lighter-tertiary-color: #6B8426be;
 $tertiary-color: #9BBF37;
@@ -276,7 +276,7 @@ nav {
         padding-left: 0px;
         overflow: hidden;
         width: 100%;
-        @include colors($medium-secondary-color, $primary-font-color);
+        @include colors($darkest-secondary-color, $primary-font-color);
 
         &.dark-mode{
             background-color: $darkest-secondary-color;
@@ -301,7 +301,7 @@ nav {
     min-width: 200px;
     font-weight: 400;
     font-size: 1em;
-    @include colors($medium-secondary-color, $primary-font-color);
+    @include colors($darkest-secondary-color, $primary-font-color);
 
     &:hover {
         @include colors($tertiary-color, $secondary-font-color); 
@@ -450,7 +450,7 @@ nav {
     position: relative;
     font-weight: 600;
     min-width: 200px;
-    @include colors($secondary-color, $primary-font-color);
+    @include colors($lighter-secondary-color, $primary-font-color);
     flex-grow: 4;
     align-self: auto;
 

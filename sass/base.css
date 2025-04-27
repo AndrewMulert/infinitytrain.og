@@ -33,7 +33,7 @@ footer {
   color: #ffffff;
 }
 footer.dark-mode {
-  background-color: #0D2D10 !important;
+  background-color: #171B18 !important;
 }
 footer > p {
   margin-top: 20px;
@@ -168,7 +168,7 @@ nav svg {
   font-size: 3em;
   outline: #37BF43;
   outline-width: 2px;
-  text-shadow: 0 5px 10px #7ede87;
+  text-shadow: 0 5px 10px #AAF0B0;
 }
 .hero_countdown p {
   font-size: 1.5em;
@@ -185,11 +185,11 @@ nav svg {
   padding-left: 0px;
   overflow: hidden;
   width: 100%;
-  background-color: #1e6724;
+  background-color: #171B18;
   color: #ffffff;
 }
 .nav_items.dark-mode {
-  background-color: #0D2D10;
+  background-color: #171B18;
 }
 .nav_link_container {
   text-align: center;
@@ -207,7 +207,7 @@ nav svg {
   min-width: 200px;
   font-weight: 400;
   font-size: 1em;
-  background-color: #1e6724;
+  background-color: #171B18;
   color: #ffffff;
 }
 .page_link:hover {
@@ -220,7 +220,7 @@ nav svg {
   color: #1E4B69;
 }
 .page_link.dark-mode {
-  background-color: #0D2D10;
+  background-color: #171B18;
 }
 
 .row_1 {
@@ -339,7 +339,7 @@ nav svg {
   transition: background-color 1s;
 }
 #dropDown:focus {
-  background-color: #7ede87;
+  background-color: #AAF0B0;
   color: #000000;
   border-style: solid;
   border-color: #1e6724;
@@ -359,15 +359,15 @@ nav svg {
   position: relative;
   font-weight: 600;
   min-width: 200px;
-  background-color: #37BF43;
+  background-color: #AAF0B0;
   color: #ffffff;
   flex-grow: 4;
   align-self: auto;
 }
 #home_link:hover {
-  background-color: #7ede87;
-  color: #7ede87;
-  box-shadow: 0px 0px 50px 60px #7ede87;
+  background-color: #AAF0B0;
+  color: #AAF0B0;
+  box-shadow: 0px 0px 50px 60px #AAF0B0;
   font-weight: bolder;
   animation: logoGlow 0.25s ease-in;
 }
